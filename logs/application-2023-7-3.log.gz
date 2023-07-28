@@ -1,0 +1,242 @@
+{
+  error: Error: data and salt arguments required
+      at Object.hashSync (C:\Users\User\Documents\symogas-backend\node_modules\bcrypt\bcrypt.js:91:15)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\scripts\system-prep.js:11:22)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+      at node:internal/main/run_main_module:23:47,
+  level: 'error',
+  message: 'uncaughtException: data and salt arguments required\n' +
+    'Error: data and salt arguments required\n' +
+    '    at Object.hashSync (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js:91:15)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js:11:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  stack: 'Error: data and salt arguments required\n' +
+    '    at Object.hashSync (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js:91:15)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js:11:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  exception: true,
+  date: 'Wed Jul 26 2023 22:08:06 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 1904,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep'
+    ],
+    memoryUsage: {
+      rss: 62963712,
+      heapTotal: 36708352,
+      heapUsed: 19442248,
+      external: 2493283,
+      arrayBuffers: 368599
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 461574.078 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js',
+      function: 'Object.hashSync',
+      line: 91,
+      method: 'hashSync',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 83,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-26 22:08:06',
+  label: 'Event Log 🏷'
+}
+{
+  error: Error: data and salt arguments required
+      at Object.hashSync (C:\Users\User\Documents\symogas-backend\node_modules\bcrypt\bcrypt.js:91:15)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\scripts\system-prep.js:11:22)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+      at node:internal/main/run_main_module:23:47,
+  level: 'error',
+  message: 'uncaughtException: data and salt arguments required\n' +
+    'Error: data and salt arguments required\n' +
+    '    at Object.hashSync (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js:91:15)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js:11:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  stack: 'Error: data and salt arguments required\n' +
+    '    at Object.hashSync (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js:91:15)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js:11:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  exception: true,
+  date: 'Wed Jul 26 2023 22:08:42 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 14568,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep'
+    ],
+    memoryUsage: {
+      rss: 63475712,
+      heapTotal: 36446208,
+      heapUsed: 19441736,
+      external: 2493283,
+      arrayBuffers: 368599
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 461610.062 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js',
+      function: 'Object.hashSync',
+      line: 91,
+      method: 'hashSync',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 83,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-26 22:08:42',
+  label: 'Event Log 🏷'
+}

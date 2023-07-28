@@ -1,0 +1,794 @@
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (C:\Users\User\Documents\symogas-backend\node_modules\express\lib\router\index.js:469:13)
+      at Function.<anonymous> (C:\Users\User\Documents\symogas-backend\node_modules\express\lib\application.js:227:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (C:\Users\User\Documents\symogas-backend\node_modules\express\lib\application.js:224:7)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\server.js:21:5)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\router\\index.js:469:13)\n' +
+    '    at Function.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:224:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\server.js:21:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\router\\index.js:469:13)\n' +
+    '    at Function.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:224:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\server.js:21:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)',
+  exception: true,
+  date: 'Fri Jul 28 2023 11:53:19 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 7764,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 67461120,
+      heapTotal: 33824768,
+      heapUsed: 23043168,
+      external: 2882592,
+      arrayBuffers: 579673
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 597486.015 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.use',
+      line: 469,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js',
+      function: null,
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 224,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\server.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 83,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-28 11:53:19',
+  label: 'Event Log 🏷'
+}
+{
+  error: TypeError: Router.use() requires a middleware function but got a Object
+      at Function.use (C:\Users\User\Documents\symogas-backend\node_modules\express\lib\router\index.js:469:13)
+      at Function.<anonymous> (C:\Users\User\Documents\symogas-backend\node_modules\express\lib\application.js:227:21)
+      at Array.forEach (<anonymous>)
+      at Function.use (C:\Users\User\Documents\symogas-backend\node_modules\express\lib\application.js:224:7)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\server.js:21:5)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12),
+  level: 'error',
+  message: 'uncaughtException: Router.use() requires a middleware function but got a Object\n' +
+    'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\router\\index.js:469:13)\n' +
+    '    at Function.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:224:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\server.js:21:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)',
+  stack: 'TypeError: Router.use() requires a middleware function but got a Object\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\router\\index.js:469:13)\n' +
+    '    at Function.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:227:21)\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at Function.use (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js:224:7)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\server.js:21:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)',
+  exception: true,
+  date: 'Fri Jul 28 2023 11:53:50 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 2904,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 67395584,
+      heapTotal: 34349056,
+      heapUsed: 23263904,
+      external: 2882592,
+      arrayBuffers: 579673
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 597517.046 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.use',
+      line: 469,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js',
+      function: null,
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.forEach',
+      line: null,
+      method: 'forEach',
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\express\\lib\\application.js',
+      function: 'Function.use',
+      line: 224,
+      method: 'use',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\server.js',
+      function: null,
+      line: 21,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 83,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-28 11:53:50',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::ffff:127.0.0.1',
+  level: 'info',
+  timestamp: '2023-07-28 11:56:43',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: Hello from SymoGasPoint. Message composed successfully',
+  level: 'error',
+  timestamp: '2023-07-28 11:59:04',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: Hello from SymoGasPoint. Welcome back! Message composed successfully',
+  level: 'error',
+  timestamp: '2023-07-28 12:07:20',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: Hello from SymoGasPoint. Welcome back! Message composed successfully',
+  level: 'error',
+  timestamp: '2023-07-28 12:08:30',
+  label: 'Event Log 🏷'
+}
+{
+  error: Error: Cannot find module 'africastalking'
+  Require stack:
+  - C:\Users\User\Documents\symogas-backend\routes\messages.js
+  - C:\Users\User\Documents\symogas-backend\server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+      at Module._load (node:internal/modules/cjs/loader:901:27)
+      at Module.require (node:internal/modules/cjs/loader:1115:19)
+      at require (node:internal/modules/helpers:119:18)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\routes\messages.js:8:24)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Module.require (node:internal/modules/cjs/loader:1115:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'africastalking'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\server.js\n' +
+    "Error: Cannot find module 'africastalking'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:901:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)\n' +
+    '    at require (node:internal/modules/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js:8:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)',
+  stack: "Error: Cannot find module 'africastalking'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:901:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)\n' +
+    '    at require (node:internal/modules/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js:8:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)',
+  exception: true,
+  date: 'Fri Jul 28 2023 12:30:47 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10136,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 67547136,
+      heapTotal: 34086912,
+      heapUsed: 23120000,
+      external: 2870418,
+      arrayBuffers: 567499
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 599733.875 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1048,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 901,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1115,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1115,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-28 12:30:47',
+  label: 'Event Log 🏷'
+}
+{
+  error: Error: Cannot find module 'africastalking'
+  Require stack:
+  - C:\Users\User\Documents\symogas-backend\routes\messages.js
+  - C:\Users\User\Documents\symogas-backend\server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+      at Module._load (node:internal/modules/cjs/loader:901:27)
+      at Module.require (node:internal/modules/cjs/loader:1115:19)
+      at require (node:internal/modules/helpers:119:18)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\routes\messages.js:8:24)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Module.require (node:internal/modules/cjs/loader:1115:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'africastalking'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\server.js\n' +
+    "Error: Cannot find module 'africastalking'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:901:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)\n' +
+    '    at require (node:internal/modules/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js:8:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)',
+  stack: "Error: Cannot find module 'africastalking'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js\n' +
+    '- C:\\Users\\User\\Documents\\symogas-backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:901:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)\n' +
+    '    at require (node:internal/modules/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js:8:24)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)',
+  exception: true,
+  date: 'Fri Jul 28 2023 12:31:00 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 3032,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 67624960,
+      heapTotal: 34086912,
+      heapUsed: 23365888,
+      external: 2894458,
+      arrayBuffers: 591539
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 599747.187 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1048,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 901,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1115,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\routes\\messages.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1115,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-28 12:31:00',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0755921613 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-28 12:36:04',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0755921613 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-28 12:36:34',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0745441222 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-28 12:37:36',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +254745441222 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-28 12:38:09',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +254745441222 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-28 13:05:32',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +254745441222 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-28 13:05:59',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-28 15:00:24',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-28 17:03:22',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +25473634362 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-28 17:04:19',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::ffff:127.0.0.1',
+  level: 'info',
+  timestamp: '2023-07-28 17:13:25',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254788399483',
+  level: 'info',
+  timestamp: '2023-07-28 17:23:55',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254188399483',
+  level: 'info',
+  timestamp: '2023-07-28 17:24:17',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254288399483',
+  level: 'info',
+  timestamp: '2023-07-28 17:24:25',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254258399483',
+  level: 'info',
+  timestamp: '2023-07-28 17:25:03',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254748905265',
+  level: 'info',
+  timestamp: '2023-07-28 17:30:41',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254748905269',
+  level: 'info',
+  timestamp: '2023-07-28 17:34:17',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254105208541',
+  level: 'info',
+  timestamp: '2023-07-28 17:48:28',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254767876253',
+  level: 'info',
+  timestamp: '2023-07-28 18:21:53',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254789887443',
+  level: 'info',
+  timestamp: '2023-07-28 18:23:04',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254722783746',
+  level: 'info',
+  timestamp: '2023-07-28 18:25:48',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254764738564',
+  level: 'info',
+  timestamp: '2023-07-28 18:26:58',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254789848477',
+  level: 'info',
+  timestamp: '2023-07-28 18:27:47',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254756245987',
+  level: 'info',
+  timestamp: '2023-07-28 18:30:05',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254765444999',
+  level: 'info',
+  timestamp: '2023-07-28 18:30:41',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254788987654',
+  level: 'info',
+  timestamp: '2023-07-28 18:31:17',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254756334123',
+  level: 'info',
+  timestamp: '2023-07-28 18:34:57',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254174645678',
+  level: 'info',
+  timestamp: '2023-07-28 18:35:41',
+  label: 'Event Log 🏷'
+}

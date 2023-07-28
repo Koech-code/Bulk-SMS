@@ -1,0 +1,554 @@
+{
+  error: Error: data and salt arguments required
+      at Object.hashSync (C:\Users\User\Documents\symogas-backend\node_modules\bcrypt\bcrypt.js:91:15)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\scripts\system-prep.js:11:22)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+      at node:internal/main/run_main_module:23:47,
+  level: 'error',
+  message: 'uncaughtException: data and salt arguments required\n' +
+    'Error: data and salt arguments required\n' +
+    '    at Object.hashSync (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js:91:15)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js:11:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  stack: 'Error: data and salt arguments required\n' +
+    '    at Object.hashSync (C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js:91:15)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js:11:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  exception: true,
+  date: 'Thu Jul 27 2023 09:07:07 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 2840,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep'
+    ],
+    memoryUsage: {
+      rss: 61734912,
+      heapTotal: 35921920,
+      heapUsed: 19377536,
+      external: 2493283,
+      arrayBuffers: 368599
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 501115.921 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\node_modules\\bcrypt\\bcrypt.js',
+      function: 'Object.hashSync',
+      line: 91,
+      method: 'hashSync',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\scripts\\system-prep.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 83,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2023-07-27 09:07:07',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] ---------------------- RUNNING SYSTEM PREP ----------------------',
+  level: 'info',
+  timestamp: '2023-07-27 09:10:33',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] - FINISHED SUCCESSFULLY, SYSTEM ADMIN CREATED!!!',
+  level: 'info',
+  timestamp: '2023-07-27 09:10:33',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] SYETEM PREP HAS ALREADY BEEN EXECUTED.',
+  level: 'info',
+  timestamp: '2023-07-27 09:11:41',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] ---------------------- RUNNING SYSTEM PREP ----------------------',
+  level: 'info',
+  timestamp: '2023-07-27 09:14:21',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] - FINISHED SUCCESSFULLY, SYSTEM ADMIN CREATED!!!',
+  level: 'info',
+  timestamp: '2023-07-27 09:14:21',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] ---------------------- RUNNING SYSTEM PREP ----------------------',
+  level: 'info',
+  timestamp: '2023-07-27 09:17:14',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] - FINISHED SUCCESSFULLY, SYSTEM ADMIN CREATED!!!',
+  level: 'info',
+  timestamp: '2023-07-27 09:17:14',
+  label: 'Event Log 🏷'
+}
+{
+  error: ReferenceError: router is not defined
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\routes\admin.js:11:1)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+      at Module.load (node:internal/modules/cjs/loader:1091:32)
+      at Module._load (node:internal/modules/cjs/loader:938:12)
+      at Module.require (node:internal/modules/cjs/loader:1115:19)
+      at require (node:internal/modules/helpers:119:18)
+      at Object.<anonymous> (C:\Users\User\Documents\symogas-backend\server.js:11:21)
+      at Module._compile (node:internal/modules/cjs/loader:1233:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1287:10),
+  level: 'error',
+  message: 'uncaughtException: router is not defined\n' +
+    'ReferenceError: router is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\routes\\admin.js:11:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)\n' +
+    '    at require (node:internal/modules/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\server.js:11:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)',
+  stack: 'ReferenceError: router is not defined\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\routes\\admin.js:11:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1091:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:938:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1115:19)\n' +
+    '    at require (node:internal/modules/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\User\\Documents\\symogas-backend\\server.js:11:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1233:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)',
+  exception: true,
+  date: 'Thu Jul 27 2023 09:40:49 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 19056,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 65925120,
+      heapTotal: 33824768,
+      heapUsed: 23024112,
+      external: 2875683,
+      arrayBuffers: 572764
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 503137.843 },
+  trace: [
+    {
+      column: 1,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\routes\\admin.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1091,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 938,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1115,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\server.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1233,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1287,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-27 09:40:49',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 09:45:43',
+  label: 'Event Log 🏷'
+}
+{
+  error: ReferenceError: logger is not defined
+      at C:\Users\User\Documents\symogas-backend\routes\contacts.js:40:7
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: 'uncaughtException: logger is not defined\n' +
+    'ReferenceError: logger is not defined\n' +
+    '    at C:\\Users\\User\\Documents\\symogas-backend\\routes\\contacts.js:40:7\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'ReferenceError: logger is not defined\n' +
+    '    at C:\\Users\\User\\Documents\\symogas-backend\\routes\\contacts.js:40:7\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Thu Jul 27 2023 09:46:42 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 11528,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 55980032,
+      heapTotal: 22814720,
+      heapUsed: 20283216,
+      external: 2675818,
+      arrayBuffers: 357145
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 503490.281 },
+  trace: [
+    {
+      column: 7,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\routes\\contacts.js',
+      function: null,
+      line: 40,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-27 09:46:42',
+  label: 'Event Log 🏷'
+}
+{
+  error: ReferenceError: logger is not defined
+      at C:\Users\User\Documents\symogas-backend\routes\contacts.js:29:9
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: 'uncaughtException: logger is not defined\n' +
+    'ReferenceError: logger is not defined\n' +
+    '    at C:\\Users\\User\\Documents\\symogas-backend\\routes\\contacts.js:29:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'ReferenceError: logger is not defined\n' +
+    '    at C:\\Users\\User\\Documents\\symogas-backend\\routes\\contacts.js:29:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Thu Jul 27 2023 09:47:35 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 20216,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 71319552,
+      heapTotal: 54009856,
+      heapUsed: 25696928,
+      external: 3392367,
+      arrayBuffers: 1070271
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 503543.375 },
+  trace: [
+    {
+      column: 9,
+      file: 'C:\\Users\\User\\Documents\\symogas-backend\\routes\\contacts.js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2023-07-27 09:47:35',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +245712345678 'Contact admited successfully",
+  level: 'error',
+  timestamp: '2023-07-27 09:48:54',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +245712345678 'Contact admitted successfully",
+  level: 'error',
+  timestamp: '2023-07-27 09:53:30',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +245712345678 'Contact admitted successfully",
+  level: 'info',
+  timestamp: '2023-07-27 09:54:50',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: +245712345678 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 09:57:36',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 10:37:08',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 10:40:10',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 11:44:16',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::ffff:127.0.0.1',
+  level: 'info',
+  timestamp: '2023-07-27 16:50:43',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0742536625 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 16:53:37',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 16:58:02',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 17:00:17',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0735636646 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 17:04:08',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 17:05:07',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0745263562 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 17:05:26',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 17:07:41',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 074662773 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 17:08:01',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 17:15:02',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 074362556256 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 17:15:21',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 07453452623 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 17:17:51',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0745345262 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 17:18:11',
+  label: 'Event Log 🏷'
+}
+{
+  message: "[INFO]: 0745345262 'Contact admitted successfully'",
+  level: 'error',
+  timestamp: '2023-07-27 17:18:59',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-27 23:37:12',
+  label: 'Event Log 🏷'
+}

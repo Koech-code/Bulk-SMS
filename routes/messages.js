@@ -7,9 +7,8 @@ var token_verifier = require("../scripts/verify-token");
 const { logger } = require("../scripts/config");
 const Africastalking = require("africastalking");
 
-const username = "sandbox";
-const apiKey =
-  "a85435d38da899d8fb5c2b03ad08d837168476c01ee7384dd1da165204cd7db2";
+const username = process.env.AFRICASTALKING_USERNAME;
+const apiKey = process.env.AFRICASTALKING_APIKEY;
 
 const africastalking = Africastalking({ apiKey, username });
 

@@ -1,0 +1,49 @@
+{
+  error: { apiKey: [ "Api key can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Sat Jul 29 2023 13:14:20 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 2808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 73424896,
+      heapTotal: 54009856,
+      heapUsed: 26884896,
+      external: 3054777,
+      arrayBuffers: 740615
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2506.25 },
+  trace: [],
+  timestamp: '2023-07-29 13:14:20',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 13:16:19',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254767665443',
+  level: 'info',
+  timestamp: '2023-07-29 13:18:22',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 16:23:49',
+  label: 'Event Log 🏷'
+}

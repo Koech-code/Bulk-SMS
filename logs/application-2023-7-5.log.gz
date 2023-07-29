@@ -792,3 +792,9 @@
   timestamp: '2023-07-28 18:35:41',
   label: 'Event Log 🏷'
 }
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-28 22:32:10',
+  label: 'Event Log 🏷'
+}

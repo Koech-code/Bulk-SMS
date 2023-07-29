@@ -47,3 +47,69 @@
   timestamp: '2023-07-29 16:23:49',
   label: 'Event Log 🏷'
 }
+{
+  message: '[INFO] ---------------------- RUNNING SYSTEM PREP ----------------------',
+  level: 'info',
+  timestamp: '2023-07-29 17:59:51',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO] - FINISHED SUCCESSFULLY, SYSTEM ADMIN CREATED!!!',
+  level: 'info',
+  timestamp: '2023-07-29 17:59:51',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 18:04:04',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 18:20:24',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 18:38:09',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 18:59:11',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 19:05:10',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 19:12:59',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 19:22:40',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 22:27:04',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-29 22:27:05',
+  label: 'Event Log 🏷'
+}

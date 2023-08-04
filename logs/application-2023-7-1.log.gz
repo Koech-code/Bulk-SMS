@@ -1,0 +1,459 @@
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-31 12:50:49',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-31 12:56:44',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254745441222',
+  level: 'info',
+  timestamp: '2023-07-31 12:57:12',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254722940818',
+  level: 'info',
+  timestamp: '2023-07-31 13:05:30',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254745402590',
+  level: 'info',
+  timestamp: '2023-07-31 13:06:22',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254722975987',
+  level: 'info',
+  timestamp: '2023-07-31 13:07:31',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254704646233',
+  level: 'info',
+  timestamp: '2023-07-31 13:08:27',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254728297143',
+  level: 'info',
+  timestamp: '2023-07-31 13:09:19',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254797545979',
+  level: 'info',
+  timestamp: '2023-07-31 13:10:52',
+  label: 'Event Log 🏷'
+}
+{
+  message: 'Contact admitted successfully: +254723988455',
+  level: 'info',
+  timestamp: '2023-07-31 13:20:41',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::ffff:127.0.0.1',
+  level: 'info',
+  timestamp: '2023-07-31 13:40:14',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::1',
+  level: 'info',
+  timestamp: '2023-07-31 13:40:57',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:16:38 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6360,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 74158080,
+      heapTotal: 54534144,
+      heapUsed: 26788352,
+      external: 2863336,
+      arrayBuffers: 573081
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179044.437 },
+  trace: [],
+  timestamp: '2023-07-31 14:16:38',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:16:49 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 5832,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 74059776,
+      heapTotal: 54009856,
+      heapUsed: 26987496,
+      external: 3030694,
+      arrayBuffers: 740439
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179055.343 },
+  trace: [],
+  timestamp: '2023-07-31 14:16:49',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:17:14 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 3716,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 73900032,
+      heapTotal: 54009856,
+      heapUsed: 26906064,
+      external: 3037295,
+      arrayBuffers: 747040
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179080.109 },
+  trace: [],
+  timestamp: '2023-07-31 14:17:14',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:17:35 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12180,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 73883648,
+      heapTotal: 54009856,
+      heapUsed: 26703600,
+      external: 3034819,
+      arrayBuffers: 744564
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179101.828 },
+  trace: [],
+  timestamp: '2023-07-31 14:17:35',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:18:11 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 16472,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 73732096,
+      heapTotal: 54009856,
+      heapUsed: 26997376,
+      external: 3045795,
+      arrayBuffers: 755540
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179137.515 },
+  trace: [],
+  timestamp: '2023-07-31 14:18:11',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:19:01 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 9104,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 74047488,
+      heapTotal: 54009856,
+      heapUsed: 26727232,
+      external: 3039436,
+      arrayBuffers: 749181
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179187.453 },
+  trace: [],
+  timestamp: '2023-07-31 14:19:01',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:20:08 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 13652,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 74035200,
+      heapTotal: 54009856,
+      heapUsed: 26700392,
+      external: 3029114,
+      arrayBuffers: 738859
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179254.765 },
+  trace: [],
+  timestamp: '2023-07-31 14:20:08',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:20:29 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 17572,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 74002432,
+      heapTotal: 53747712,
+      heapUsed: 27039712,
+      external: 3061686,
+      arrayBuffers: 747524
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179275.484 },
+  trace: [],
+  timestamp: '2023-07-31 14:20:29',
+  label: 'Event Log 🏷'
+}
+{
+  error: {
+    username: [ "Username can't be blank" ],
+    apiKey: [ "Api key can't be blank" ]
+  },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:20:55 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 12388,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 74002432,
+      heapTotal: 53747712,
+      heapUsed: 26988200,
+      external: 3065896,
+      arrayBuffers: 751734
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179301.546 },
+  trace: [],
+  timestamp: '2023-07-31 14:20:55',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:21:46 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 6412,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 73859072,
+      heapTotal: 54009856,
+      heapUsed: 26925656,
+      external: 3061686,
+      arrayBuffers: 747524
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179352.312 },
+  trace: [],
+  timestamp: '2023-07-31 14:21:46',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 14:23:51 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 8708,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 74158080,
+      heapTotal: 54009856,
+      heapUsed: 26998152,
+      external: 3061686,
+      arrayBuffers: 747524
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179477.734 },
+  trace: [],
+  timestamp: '2023-07-31 14:23:51',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::ffff:127.0.0.1',
+  level: 'info',
+  timestamp: '2023-07-31 15:23:02',
+  label: 'Event Log 🏷'
+}
+{
+  error: { username: [ "Username can't be blank" ] },
+  level: 'error',
+  message: 'uncaughtException: (no error message)\n  No stack trace',
+  stack: undefined,
+  exception: true,
+  date: 'Mon Jul 31 2023 15:25:16 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 10412,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\User\\Documents\\symogas-backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.4.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\User\\Documents\\symogas-backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 76075008,
+      heapTotal: 54009856,
+      heapUsed: 27406640,
+      external: 3075570,
+      arrayBuffers: 761408
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 183162.187 },
+  trace: [],
+  timestamp: '2023-07-31 15:25:16',
+  label: 'Event Log 🏷'
+}
+{
+  message: '[INFO]: 200 - undefined successfully logged in - /api/admin/login - POST - ::ffff:127.0.0.1',
+  level: 'info',
+  timestamp: '2023-07-31 23:07:38',
+  label: 'Event Log 🏷'
+}

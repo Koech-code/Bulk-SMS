@@ -18,7 +18,7 @@ const sendBulkSMS = (recipients, message) => {
   const phoneNumbers = Array.isArray(recipients) ? recipients : [recipients]; // Ensure recipients is an array
 
   sms
-    .send({ to: phoneNumbers, message, from: "SymoGas" })
+    .send({ to: phoneNumbers, message })
     .then((response) => {
       console.log("SMS sent successfully:", response);
 
@@ -104,4 +104,5 @@ router.get("/all", async (req, res) => {
     res.status(500).json({ message: "Failed to get messages." });
   }
 });
+
 module.exports = router;
